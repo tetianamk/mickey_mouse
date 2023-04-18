@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+}
+.box {
+  min-height: 980px;
+  width: 980px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  position: relative;
+}
+.circle {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+.small {
+  height: 400px;
+  width: 400px;
+}
+.big {
+  height: 700px;
+  width: 700px;
+}
+.left {
+  position: absolute;
+  top: 0;
+}
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.center {
+  position: absolute;
+  bottom: 0;
+  left:150px;
+}
