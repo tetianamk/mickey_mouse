@@ -6,7 +6,7 @@ body {
 }
 .box {
   min-height: 980px;
-  width: 980px;
+  width: 1200px;
   background-color: #ffffff;
   margin: 0 auto;
   position: relative;
@@ -21,8 +21,8 @@ body {
   width: 400px;
 }
 .big {
-  height: 700px;
-  width: 700px;
+  height: 750px;
+  width: 750px;
 }
 .left {
   position: absolute;
@@ -36,5 +36,5 @@ body {
 .center {
   position: absolute;
   bottom: 0;
-  left:150px;
+  left:225px;
 }
