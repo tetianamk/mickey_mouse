@@ -2,19 +2,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #000000;
-}
-.box {
-  min-height: 980px;
-  width: 1200px;
-  background-color: #ffffff;
-  margin: 0 auto;
-  position: relative;
+  min-height: 200vh;
 }
 .circle {
   background-color: #000000;
   border: 1px solid #000000;
   border-radius: 50%;
+  box-shadow: rgba(245, 3, 3, 0.911) 0px 10px 5px;
 }
 .small {
   height: 400px;
@@ -27,14 +21,15 @@ body {
 .left {
   position: absolute;
   top: 0;
+  left: 320px;
 }
 .right {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 320px;
 }
 .center {
-  position: absolute;
+  position: relative;
   bottom: 0;
-  left:225px;
+  margin: 200px auto;
 }
